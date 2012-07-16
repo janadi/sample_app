@@ -54,7 +54,7 @@ it "should have the right links on the layout" do
     click_link "Contact"
     page.should # fill in
     click_link "Home"
-    click_link "Sign up now!"
+    click_link "Sign up"
     page.should # fill in
     click_link "sample app"
     page.should # fill in
